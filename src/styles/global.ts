@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     max-width: 100%;
     height: auto;
   }
+
+  body {
+    background-color: ${({ theme }) => theme.colors.white};
+  }
 `;
 
 export default GlobalStyle;
