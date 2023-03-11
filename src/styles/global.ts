@@ -29,6 +29,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${({ theme }) => theme.colors.white};
+    width: 100vw;
+    height: 100vh;
   }
 `;
 
