@@ -27,6 +27,11 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
   }
 
+  a,
+  button {
+    cursor: pointer;
+  }
+
   body {
     background-color: ${({ theme }) => theme.colors.white};
     width: 100vw;
