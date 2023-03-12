@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {ReactComponent as PlayIcon} from 'assets/images/icon-play.svg';
+import { ReactComponent as PlayIcon } from 'assets/images/icon-play.svg';
 
 export const Wrapper = styled.section`
   display: flex;
