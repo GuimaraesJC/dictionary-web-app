@@ -45,6 +45,10 @@ export const Switch = styled.label`
     border-radius: 1rem;
   }
 
+  &:hover .slider {
+    background-color: ${({ theme }) => theme.colors.purple};
+  }
+
   input:checked + .slider {
     background-color: ${({ theme }) => theme.colors.purple};
   }
