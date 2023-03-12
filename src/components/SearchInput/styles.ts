@@ -28,3 +28,11 @@ export const Input = styled.input`
     border: 1px solid ${({ theme }) => theme.colors.red};
   }
 `;
+
+export const ErrorMessage = styled.span`
+  display: block;
+  color: ${({ theme }) => theme.colors.red};
+  font-size: 1.25rem;
+  font-family: 'Inter'; // TODO: Change font dynamically
+  margin-top: 0.5rem;
+`;
