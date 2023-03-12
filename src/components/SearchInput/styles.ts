@@ -13,6 +13,7 @@ export const Input = styled.input`
   font-weight: 700;
   font-family: 'Inter'; // TODO: Change font dynamically
   padding: 1.25rem 1.5rem;
+  caret-color: ${({ theme }) => theme.colors.purple};
 
   &::placeholder {
     color: ${({ theme }) => theme.colors.grayDarker};
