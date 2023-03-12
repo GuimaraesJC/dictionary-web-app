@@ -1,7 +1,12 @@
 import styled from 'styled-components';
+import { ReactComponent as PlayIcon } from 'assets/images/icon-search.svg';
+
+export const Wrapper = styled.div`
+  margin-top: 3.25rem;
+  position: relative;
+`;
 
 export const Input = styled.input`
-  margin-top: 3.25rem;
   width: 100%;
   height: 4rem;
   border: none;
@@ -27,6 +32,23 @@ export const Input = styled.input`
 
   &.error {
     border: 1px solid ${({ theme }) => theme.colors.red};
+  }
+`;
+
+export const SearchIcon = styled(PlayIcon)`
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    width: 19px;
+    height: 19px;
+  }
+
+  &:hover path {
+    filter: brightness(0.9);
   }
 `;
 
