@@ -5,9 +5,14 @@ import options from './options';
 
 import arrowDown from 'assets/images/icon-arrow-down.svg';
 
+type Font = {
+  label: string;
+  fontFamily: string;
+};
+
 function DropdownMenu() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [selectedFont, setSelectedFont] = useState(
+  const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+  const [selectedFont, setSelectedFont] = useState<Font>(
     { label: 'Sans Serif', fontFamily: 'Inter' }
   );
 
