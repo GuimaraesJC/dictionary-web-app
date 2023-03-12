@@ -42,6 +42,7 @@ export const Dropdown = styled.ul`
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: ${({theme}) => theme.colors.white};
 `;
 
 interface OptionProps {
