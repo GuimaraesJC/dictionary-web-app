@@ -35,7 +35,7 @@ export const Menu = styled.div<MenuProps>`
 
 export const Dropdown = styled.ul`
   position: absolute;
-  top: 2.2rem;
+  top: 2.75rem;
   right: 3.25rem;
   width: 11.5rem;
   height: 9.5rem;
