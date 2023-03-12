@@ -8,6 +8,7 @@ export const Input = styled.input`
   border-radius: 1rem;
   background-color: ${({ theme }) => theme.colors.grayLightest};
   outline: 0;
+  color: ${({ theme }) => theme.colors.grayDarker};
   font-size: 1.25rem;
   font-weight: 700;
   font-family: 'Inter'; // TODO: Change font dynamically
